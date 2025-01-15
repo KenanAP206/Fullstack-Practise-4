@@ -1,0 +1,39 @@
+#team{
+    
+    .team-all{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        gap: 30px;
+        .team-card{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap: 15px;
+            img{
+                margin: 10px auto;
+                width: 70%;
+            }
+            h4{
+                font-weight: normal;
+                color: #737373;
+            }
+            h5{
+                font-weight: normal;
+                text-transform: uppercase;
+                color: #cccecf;
+            }
+            p{
+                line-height: 25px;
+                color: #71767b;
+            }
+            .tm-icons{
+                display: flex;
+                gap: 10px;
+                color: #81868b;
+                font-size: 30px;
+            }
+        }
+    }
+}

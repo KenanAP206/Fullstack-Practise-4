@@ -1,0 +1,70 @@
+#about{
+    margin: 100px auto;
+    .about-all{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(510px,1fr));
+        gap: 100px;
+        
+        .about-l{
+        
+            position: relative;    
+            img{
+                height: 100%;
+                width: 100%;
+            }
+            .boutbox{
+                bottom: -10px;
+                background-color: #59DDB0;
+                color: white;
+                padding: 15px 25px;
+                font-size: 40px;
+                position: absolute;
+                display: flex;
+                right: -20px;
+                flex-direction: column;
+                h3{
+                    font-weight: 900;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .about-r{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+         
+            gap: 20px;
+            h4{
+                font-size: 15px;
+                text-transform: uppercase;
+                color: #a7aab0;
+            }
+            h2{
+                font-size: 40px;
+                font-weight: 900;
+            }
+            p{
+                width: 50%;
+                color: #77787c;
+                line-height: 25px;
+            }
+            .boutbtn{
+                cursor: pointer;
+                transition: 0.3s;
+                padding: 8px 20px;
+                color: white;
+                width: max-content;
+                font-weight: 700;
+                background-color: black;
+                border: 2px solid black;
+                &:hover{
+                    background-color: white;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

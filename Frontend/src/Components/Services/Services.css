@@ -1,0 +1,42 @@
+.serv{
+    margin: 100px auto;
+    background-color: #F8F9FA;
+
+    #services{
+        padding: 100px 0px;
+    }
+    .serv-cards{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        .serv-card{
+            display: flex;
+            align-items:flex-start;
+            gap: 20px;
+            font-size: 20px;
+            
+            svg{
+                font-size: 150px;
+                color: #F16821;
+            }
+            h5{
+                color: #8f8f8f;
+            }
+            p{
+                font-size: 16px;
+                line-height: 25px;
+                color: #939393;
+            }
+
+            a{
+                font-size: 15px;
+                color: #F16821;
+            }
+            .sc-txt{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    }
+}
